@@ -227,10 +227,11 @@ body {
 }
 
 .benefits-wrap-icon {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 120px;
   margin-bottom: 30px;
-  padding: 25px 0;
 
   background-color: var(--button-color);
   border-radius: 4px;
@@ -238,7 +239,6 @@ body {
 
 .benefits-icon {
   display: block;
-  margin: 0 auto;
 }
 
 .benefits-subtitle {
