@@ -25,11 +25,28 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ol,
 ul {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .list {
@@ -107,7 +124,6 @@ ul {
 
 .site-nav {
   display: flex;
-  margin: 0;
 }
 
 .site-nav-item:not(:last-child) {
@@ -175,7 +191,6 @@ ul {
 }
 
 .hero-title {
-  margin-top: 0;
   margin-bottom: 40px;
 
   color: var(--main-color);
@@ -190,7 +205,6 @@ ul {
 /* Section */
 
 .section-title {
-  margin-top: 0;
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -227,12 +241,7 @@ ul {
   border-radius: 4px;
 }
 
-.benefits-icon {
-  display: block;
-}
-
 .benefits-subtitle {
-  margin-top: 0;
   margin-bottom: 10px;
 
   font-size: 14px;
@@ -241,9 +250,6 @@ ul {
 }
 
 .benefits-description {
-  margin-top: 0;
-  margin-bottom: 0;
-
   color: var(--secondary-color);
   font-size: 14px;
   line-height: 1.71;
@@ -254,12 +260,6 @@ ul {
 .we-do-list {
   display: flex;
   justify-content: space-between;
-}
-
-.we-do-img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 /* Our team */
@@ -287,18 +287,11 @@ ul {
   margin-right: 30px;
 }
 
-.our-team-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .our-team-wrap {
   padding: 30px 32px;
 }
 
 .our-team-subtitle {
-  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -307,7 +300,6 @@ ul {
 }
 
 .our-team-text {
-  margin-top: 0;
   margin-bottom: 16px;
 
   color: var(--secondary-color);
@@ -335,7 +327,6 @@ ul {
 }
 
 .our-team-icon {
-  display: block;
   fill: var(--icons-color);
 }
 
@@ -372,7 +363,6 @@ ul {
 }
 
 .client-icon {
-  display: block;
   fill: currentColor;
 }
 
@@ -390,7 +380,6 @@ ul {
 }
 
 .footer-subtitle {
-  margin-top: 0;
   margin-bottom: 20px;
 
   color: var(--main-color);
@@ -428,7 +417,6 @@ ul {
 }
 
 .footer-social-icon {
-  display: block;
   fill: var(--main-color);
 }
 
@@ -483,12 +471,6 @@ ul {
   margin-bottom: 30px;
 }
 
-.portfolio-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .portfolio-wrap {
   border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
@@ -497,7 +479,6 @@ ul {
 }
 
 .portfolio-subtitle {
-  margin-top: 0;
   margin-bottom: 4px;
 
   color: var(--primary-color);
@@ -507,9 +488,6 @@ ul {
 }
 
 .portfolio-text {
-  margin-top: 0;
-  margin-bottom: 0;
-
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.88;
