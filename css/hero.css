@@ -4,10 +4,7 @@
 
 .hero-inner {
   padding: 188px 331px;
-  margin-right: auto;
-  margin-left: auto;
   max-width: 1440px;
-
   background:
     linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%),
     url(../images/hero-bg.jpg);
