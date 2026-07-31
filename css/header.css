@@ -32,8 +32,11 @@
   color: var(--brand-pressed);
 }
 
-.nav-link:hover::after,
-.nav-link:focus::after {
+.nav-link-active {
+  color: var(--ocean);
+}
+
+.nav-link-active::after {
   position: absolute;
   top: calc(100% - 4px);
   content: '';
