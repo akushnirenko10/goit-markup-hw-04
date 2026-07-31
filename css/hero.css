@@ -1,0 +1,36 @@
+.hero {
+  background-color: var(--contrast-high);
+}
+
+.hero-inner {
+  padding: 188px 331px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1440px;
+
+  background:
+    linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+  max-width: 496px;
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--surface-primary);
+  text-align: center;
+}
+
+.hero .modal-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

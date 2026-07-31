@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--contrast-high);
+  color: var(--surface-default);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-wrapper:first-child {
+  margin-right: 120px;
+}
+
+.footer-logo {
+  display: inline-block;
+  color: inherit;
+  margin-bottom: 16px;
+}
+
+.footer-description {
+  max-width: 264px;
+}
+
+.footer-text {
+  font-weight: 500;
+  color: var(--surface-primary);
+  margin-bottom: 16px;
+}
